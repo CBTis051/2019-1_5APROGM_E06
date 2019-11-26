@@ -1,4 +1,4 @@
-var ttp = require('http');
+var http = require('http');
 http.createServer(function (req, res) {
     res.writehead(200, {'Content-Type': 'application/json; charset=utf-8'});
 
